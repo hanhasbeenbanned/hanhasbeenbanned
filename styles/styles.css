@@ -901,20 +901,49 @@
                 /*phone styles */
                 
                 @media (max-width: 412px){
+
+                    body{
+                        background-image: linear-gradient(#616161, #262839 );
+                    }
                     #box1 img{
                         position: relative;
-                        width: 64em;
-                        animation-name: sunmob;
-                        animation-duration: 3s;
-                    }
-                    @keyframes sunmob{
-                        0%{right: 20em; bottom: 200%;}
-                        100%{right: 20em; bottom: -100%;}
+                        width: 100%;
+                        bottom: 35%;
+                        right: 28%;
+                        flex-direction: center;
                     }
                     #box12 img{
-                      width: 0em;
-                        
+                        width: 90%;
+                        position: relative;
+                        top: 70%;
+                        right: 30%;
                     }
+                    @keyframes moon{
+                    0% {
+                       bottom: auto;
+                    }
+                    100% {
+                        bottom: auto;
+                    }
+                    }
+                    @keyframes example{
+                        0% {
+                            bottom: auto;
+                        }
+                        100% {
+                            bottom: auto;
+                    }
+                    }
+
+                    @keyframes anim4{
+                    0% {
+                        top: -100px;
+                    }
+                    100% {
+                        top: 10%;
+                    }
+                    }
+
                     #box13 img{
                         position: relative;
                         width: 40em;
@@ -935,6 +964,10 @@
                         padding: 10px;
                         padding-left: 25px;
                         left: -0em;
+                    }
+                    #box2 #text{
+                        position: relative;
+                        top: 20%;
                     }
                     #box2 br{
                         content: '';
@@ -981,6 +1014,13 @@
                         0%{left: -300%;}
                         100%{left: 0%;}
                     }
+
+                    #container {
+                        width: 50%;
+                        position: relative;
+                        top: -100%;
+                        animation: anim4 1s forwards 1s;
+                    }
                     #text4{
                         border: none;
                         width: 95%;
@@ -992,8 +1032,7 @@
                     .ifooter{
                         margin-left: 0;
                         margin-right: 0;
-                        padding: 10px;
-                        margin-top: 220%;
+                        padding: 0;
                     }
                     .ifooter li{
                         position: relative;
