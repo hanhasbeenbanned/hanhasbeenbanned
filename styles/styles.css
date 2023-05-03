@@ -905,6 +905,25 @@
                     body{
                         background-image: linear-gradient(#616161, #262839 );
                     }
+
+                    header{
+                        background-color: #7f6e60;
+                        display: flex;
+                        flex-wrap: wrap;
+                        z-index: 9001;
+                    }
+
+                    header #menu{
+                        display: flex;
+                        position: relative;
+                        top: 50%;
+                        left: 5%;
+                        margin: auto;
+                    }
+                    header #logo{
+                        position: relative;
+                        width: 20%;
+                    }
                     #box1 img{
                         position: relative;
                         width: 100%;
@@ -917,6 +936,9 @@
                         position: relative;
                         top: 70%;
                         right: 30%;
+                    }
+                    box3{
+                        width: none;
                     }
                     @keyframes moon{
                     0% {
@@ -957,13 +979,7 @@
                         100%{right: 7.6em; bottom: 3em;}
                     }
                     #box2{
-                        font-size: 3em;
-                        position: relative;
-                        top: -1.8em;
-                        width: 8em;
-                        padding: 10px;
-                        padding-left: 25px;
-                        left: -0em;
+                       font-size: 10%;
                     }
                     #box2 #text{
                         position: relative;
@@ -1014,13 +1030,60 @@
                         0%{left: -300%;}
                         100%{left: 0%;}
                     }
-
                     #container {
-                        width: 50%;
-                        position: relative;
-                        top: -100%;
-                        animation: anim4 1s forwards 1s;
+                      
                     }
+
+
+
+
+
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #7f6e60;
+    position: relative;
+    z-index: 9001;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav img{
+    width: 20%;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #948171;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #948171;
+    color: white;
+  }
                     #text4{
                         border: none;
                         width: 95%;
