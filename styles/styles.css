@@ -439,7 +439,8 @@
                     animation-name: p;
                     animation-duration: 2.5s;
                     animation-delay: 0s;
-                    overflow:auto;
+                    overflow-y:auto;
+                    overflow-x: hidden;
                 }
                 @keyframes p{
                     0%{ left: 120%;}
@@ -473,22 +474,25 @@
                     100%{bottom: 4em;}
                 }
                 #boxp p{
-                    color: #a78fa8;
+                    color: #c6a9c7;
                     position: relative;
-                    top: 13em;
-                    font-size: 1.5em;
-                    font-family: 'Roboto Condensed', sans-serif;
-                    
+                    font-size: 1em;
+                    font-family: 'Roboto Condensed', sans-serif;  
                 }
 
                 .references{
                     display: flex;
                     align-items: center;
+                    
                 }
 
                 .starseekers img{
                     width: 70%;
                     border-radius: 1em;
+                }
+
+                .medicalcharting{
+                    position: relative;
                 }
                 
                 /* loading styles */
