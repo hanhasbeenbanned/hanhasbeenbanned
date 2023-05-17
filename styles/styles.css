@@ -450,24 +450,26 @@
                     100%{ left: 50%;}
                 }
                 #boxsw{
-                    color: #ffffff;
-                    font-size: 8em;
+                    color: lightgray;
+                    font-size: 6.5em;
                     position: relative;
-                    bottom: 6.5em;
-                    left: 4%;
-                    font-family: 'Roboto Condensed', sans-serif;
+                    bottom: 80%;
+                    left: 6%;
+                    font-family: 'Rajdhani', sans-serif;
+                    /*font-family: 'Roboto Condensed', sans-serif;*/
                     animation-name: sw;
                     animation-duration: 2s;
                     animation-delay: 0s;
                     width: 30%;
                 }
                 @keyframes sw{
-                    0%{ left: 4%; bottom: 100em;}
-                    100%{left: 4%; bottom: 6.5em;}
+                    0%{ left: 6%; bottom: 100em;}
+                    100%{left: 6%; bottom: 80%;}
                 }
                 #boxmc{
                     position: absolute;
                     bottom: 4em;
+                    left: 2%;
                     animation-name: mc;
                     animation-duration: 2.5s;
                     animation-delay: 0s;
@@ -483,20 +485,22 @@
                     font-family: 'Roboto Condensed', sans-serif;  
                 }
 
-                .references{
-                    display: flex;
-                    align-items: center;
-                    
-                }
-
-                .starseekers img{
-                    width: 70%;
+                .mine img{
+                    width: 60%;
                     border-radius: 1em;
                 }
 
-                .medicalcharting{
-                    position: relative;
+                .starseekers img{
+                    width: 85%;
+                    border-radius: 1em; 
                 }
+
+                .medicalcharting img{
+                    width: 85%;
+                    border-radius: 1em;
+                }
+
+               
                 
                 /* loading styles */
                 
